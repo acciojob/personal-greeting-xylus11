@@ -5,7 +5,7 @@ const App = () => {
   const [inputValue, setInputValue] = useState("");
 
   const handleInputChange = (e) => {
-    setInputValue("Hello " + e.target.value +"!");
+    setInputValue("Hello " + e.target.value +" !");
   };
 
   return (
