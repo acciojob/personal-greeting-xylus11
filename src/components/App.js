@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <input type="text" id="inp" onChange={handleInputChange} />
-      <span>{inputValue}</span>
+      <p>{inputValue}</p>
     </div>
   );
 };
